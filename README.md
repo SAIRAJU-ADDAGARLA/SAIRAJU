@@ -1,77 +1,101 @@
-# Git Auto-Push Automation
+# ⚡ A. Sairaju | AI Developer & Full-Stack Engineer
 
-This repository contains a simple, robust automation setup to automatically commit and push your local workspace changes to GitHub daily on Windows.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&width=700&lines=AI+Engineer+%E2%80%A2+Full+Stack+Developer;SIH+2025+Internal+Screening+Top+50;Building+the+Future+of+SaaS+%26+Automation;Startup+Founder+%E2%80%A2+Campus+Connect+CEO" alt="Typing SVG" />
+</p>
 
-## Contents
-
-- [git_autopush.py](file:///c:/Users/saira/Downloads/guna.p/git_autopush.py): The core Python script that checks for local changes, stages them, commits with a timestamped message, and pushes to your remote origin.
-- [setup_daily_task.ps1](file:///c:/Users/saira/Downloads/guna.p/setup_daily_task.ps1): A PowerShell utility script that registers the Python script in Windows Task Scheduler to run automatically every day at 11:00 PM.
-- `git_autopush.log`: The log file generated automatically by the script to track execution details and debug issues.
-
----
-
-## Setup Instructions
-
-### 1. Configure Git Authentication (Crucial)
-Since the scheduled task runs in the background, Git must be able to push to GitHub without prompting you for a username or password.
-- **Recommended (HTTPS)**: Run the following command to enable Windows Credential Manager:
-  ```bash
-  git config --global credential.helper manager
-  ```
-  Ensure you have pushed manually once to save your GitHub credentials in the Windows Credential Manager.
-- **Alternative (SSH)**: Set up SSH keys and link them to your GitHub account.
-
-### 2. Set Remote Origin
-If you haven't already initialized this folder as a git repository or added a remote, you can run:
-```bash
-git init
-git remote add origin https://github.com/your-username/your-repository.git
-git branch -M main
-git push -u origin main
-```
-
-### 3. Run the Daily Task Setup
-Open PowerShell in this directory and execute:
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force
-.\setup_daily_task.ps1
-```
-This registers a task named **`GunaP-Git-AutoPush`** in the Windows Task Scheduler.
+<p align="center">
+  <a href="https://github.com/addagarla-sairaju">
+    <img src="https://img.shields.io/github/followers/addagarla-sairaju?label=Followers&style=for-the-badge&color=00F2FE&logo=github" alt="GitHub Followers">
+  </a>
+  <a href="https://www.linkedin.com/in/sairaju-addagarla-860409320">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="mailto:24pa5a0501@vishnu.edu.in">
+    <img src="https://img.shields.io/badge/Email-Contact-FF4B4B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+</p>
 
 ---
 
-## Usage
+### 🚀 About Me
 
-### Manual Execution
-You can run the script manually at any time to stage, commit, and push your changes:
-```bash
-python git_autopush.py
-```
+I am a passionate **AI Engineer, Full-Stack Developer, and Aspiring Entrepreneur** pursuing my B.Tech at **Vishnu Institute of Technology, Bhimavaram**. I specialize in building production-ready AI agents, computer vision systems, and high-performance SaaS applications that solve real-world problems. Driven by the startup ecosystem, I bridge the gap between cutting-edge Machine Learning and scalable Full-Stack architecture.
 
-### Checking Logs
-Every execution (manual or scheduled) is logged to `git_autopush.log` in the same directory.
-Example log output:
-```text
-[2026-06-05 18:15:00] === Git Auto-Push Start ===
-[2026-06-05 18:15:01] Using git version 2.45.0.windows.1
-[2026-06-05 18:15:01] Remote origin configured: https://github.com/username/repo.git
-[2026-06-05 18:15:01] Changes detected:
- M README.md
- ?? new_file.txt
-[2026-06-05 18:15:01] Staging changes...
-[2026-06-05 18:15:02] Committing changes with message: 'Auto-commit: Daily update 2026-06-05 18:15:02'
-[2026-06-05 18:15:02] Commit successful:
-[main a1b2c3d] Auto-commit: Daily update 2026-06-05 18:15:02
- 2 files changed, 5 insertions(+)
- create mode 100644 new_file.txt
-[2026-06-05 18:15:02] Pushing changes to GitHub...
-[2026-06-05 18:15:04] Push successful!
-[2026-06-05 18:15:04] === Git Auto-Push Finished ===
-```
+- 🛠️ **Current Focus:** Advanced Computer Vision, Generative AI Orchestration, and P2P Networking.
+- 💡 **Interests:** Autonomous AI Agents, SaaS Architecture, Edge Computing, and Rapid Prototyping.
+- 🏆 **Track Record:** SIH 2025 Internal Screening Top 50 Finisher, building products from ideation to deployment.
+- 💬 **Ask me about:** The MERN Stack, training ML models, or pitching startup MVPs.
 
-### Changing Task Settings
-To adjust the time or frequency:
-1. Press the Windows key, search for **Task Scheduler**, and open it.
-2. Select **Task Scheduler Library** from the left panel.
-3. Locate **`GunaP-Git-AutoPush`**.
-4. Double-click it to modify triggers, settings, or credentials.
+---
+
+### 🏆 GitHub Trophies
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=addagarla-sairaju&theme=darkhub&column=7&margin-w=15&margin-h=15&no-bg=true" alt="Sairaju's GitHub Trophies" />
+</p>
+
+---
+
+### 💻 Languages and Tools
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,tensorflow,js,react,nodejs,express,mongodb,html,css,tailwind,postgres,git,github,docker,postman,vscode,linux" alt="Sairaju's Tech Stack" />
+</p>
+
+---
+
+### 🛠️ Featured Venture & Projects
+
+#### 🌐 1. Campus Connect — *Founder & Lead Developer*
+> **A Smart Academic Networking & Engagement Hub**
+> - Built a robust LinkedIn-style ecosystem optimized entirely for university landscapes.
+> - Engineered core pipelines for real-time campus event alerts, automated alumni mentorship matching, cross-department project collaboration boards, and open-source resource distribution hubs.
+> - **Tech Stack:** MongoDB, Express.js, React, Node.js, Socket.io, WebRTC.
+
+#### 🌿 2. AgroScan — *AI Product Engineer*
+> **Deep-Learning Plant Pathology Ecosystem**
+> - Developed an end-to-end edge AI system that diagnoses critical plant diseases instantly from high-resolution smartphone image scans.
+> - Leveraged custom-trained convolutional neural networks (CNNs) optimized for mobile deployment, serving actionable treatment blueprints to farmers instantly.
+> - **Tech Stack:** Python, PyTorch, OpenCV, React Native, FastAPI.
+
+#### 🚨 3. PulseNet: Emergency Alert System — *Systems Architect*
+> **Crisis-Ready Offline & Online Safety Platform**
+> - Programmed an intelligent SOS ecosystem featuring low-latency live location streaming and geofenced hazard notifications.
+> - Currently scaling capabilities to include P2P offline mesh connectivity using Wi-Fi Direct and Bluetooth for infrastructure-less communications during disasters.
+> - **Tech Stack:** Node.js, React Native, Redis, WebSockets, Geospatial Indexing.
+
+#### 🏛️ 4. Government Scheme Assistant — *LLM Engineer*
+> **Multilingual Regional AI Assistant**
+> - Developed a highly localized generative AI platform allowing citizens to query, discover, and verify eligibility for state and central benefits using local languages.
+> - Utilized advanced RAG pipelines to bypass complex bureaucratic terminology and output simplified compliance checklists.
+> - **Tech Stack:** Python, LangChain, HuggingFace, Streamlit, Vector DBs.
+
+---
+
+### 🌟 Milestones & Accolades
+
+*   **Smart India Hackathon (SIH) 2025 Internal Screening Finalist** | *Ranked in the **Top 50 Teams** out of 300+ competing internal teams at Vishnu Institute of Technology during the evaluation screening.*
+*   **Professional Certification Portfolio** | *Earned advanced validation in Cloud Architecture, Deep Learning frameworks, and Full-Stack Systems via Credly.*
+*   **Open Source & Hackathon Builder** | *Actively designing and committing production-grade code to address socio-economic challenges through modern automation.*
+
+👉 Check out my verified credentials on my **[Credly Profile](https://www.credly.com/users/addagarla-sairaju/skills)**.
+
+---
+
+---
+
+### 🤝 Connect with me:
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/sairaju-addagarla-860409320" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" />
+  </a>
+  <a href="mailto:24pa5a0501@vishnu.edu.in" target="_blank">
+    <img src="https://skillicons.dev/icons?i=gmail" alt="Email" height="40" />
+  </a>
+  <a href="https://github.com/addagarla-sairaju" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" height="40" />
+  </a>
+</p>
+
+---
