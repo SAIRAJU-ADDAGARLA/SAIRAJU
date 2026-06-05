@@ -1,0 +1,10 @@
+[2026-06-05 18:19:16] === Git Auto-Push Start ===
+[2026-06-05 18:19:16] Using git version 2.52.0.windows.1
+[2026-06-05 18:19:16] WARNING: No remote 'origin' configured. You must set a remote to push changes.
+[2026-06-05 18:19:16] Example command to set origin: git remote add origin <your-github-repo-url>
+[2026-06-05 18:19:16] Changes detected:
+?? README.md
+?? git_autopush.log
+?? git_autopush.py
+?? setup_daily_task.ps1
+[2026-06-05 18:19:16] Staging changes...
