@@ -29,13 +29,6 @@ I am a passionate **AI Engineer, Full-Stack Developer, and Aspiring Entrepreneur
 
 ---
 
-### 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=addagarla-sairaju&theme=darkhub&column=7&margin-w=15&margin-h=15&no-bg=true" alt="Sairaju's GitHub Trophies" />
-</p>
-
----
-
 ### 💻 Languages and Tools
 
 <p align="left">
